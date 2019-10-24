@@ -1,0 +1,26 @@
+{
+  "name": "synthetix-translations",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "extractLanguages": "node ./extractLanguages",
+    "build": "rm translations.json && npm run extractLanguages && webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Synthetixio/synthetix-translations.git"
+  },
+  "author": "Synthetix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Synthetixio/synthetix-translations/issues"
+  },
+  "homepage": "https://github.com/Synthetixio/synthetix-translations#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {}
+}
