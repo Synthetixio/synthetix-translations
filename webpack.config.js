@@ -6,6 +6,6 @@ module.exports = {
 		filename: 'index.min.js',
 		path: path.resolve(__dirname),
 		library: 'snxTranslations',
-		libraryTarget: 'window',
+		libraryTarget: 'umd',
 	},
 };
