@@ -8,6 +8,11 @@ Internationalization repository for Synthetix dApps.
 
 ## For translators
 
+1. Fork repo
+2. Create `APP_NAME/{LANG}/translation.json`
+3. Edit `translation.json` with translations
+4. Submit PR back to this repo
+
 Before submitting a translation, please make sure to respect the following repository architecture:
 `APP_NAME/LANG/translation.json`
 
