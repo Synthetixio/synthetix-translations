@@ -43,7 +43,7 @@ const generateTranslations = async () => {
     if (!translations[file.app]) {
       translations[file.app] = {};
     }
-    translations[file.app][file.lang] = file.content;
+    translations[file.app][file.lang] = { translation: file.content };
   });
   await writeFile(translations);
 };
