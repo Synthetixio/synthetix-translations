@@ -6,15 +6,18 @@
 
 Internationalization repository for Synthetix dApps.
 
-## For translators
+## Translator Instructions
 
-1. Fork repo
-2. Create `APP_NAME/{LANG}/translation.json`
-3. Edit `translation.json` with translations
-4. Submit PR back to this repo
+1. Fork this repo using the fork button on the top right ^^^.
+2. Copy the `/en/translation.json` e.g. synthetix-mintr/en/translation.json
+3. Rename it into your langage folder `{APP_NAME}/{LANG-CODE}/translation.json` e.g. synthetix-mintr/es/translation.json
+4. Translate English to your language
+5. Submit PR back to this repo
 
 Before submitting a translation, please make sure to respect the following repository architecture:
-`APP_NAME/LANG/translation.json`
+`{APP_NAME}/{LANG-CODE}/translation.json`
+Where {APP_NAME} is the DAPP repo name i.e. synthetix-mintr, synthetix-exchange
+{LANG-CODE} is the language code for your language to translate.
 
 Examples:
 
