@@ -1,126 +1,126 @@
 {
 	"onboarding": {
 		"header": {
-			"whatIsSynthetix": "What is Synthetix?",
-			"support": "Having trouble?"
+			"whatIsSynthetix": "Что такое Synthetix?",
+			"support": "Возникли проблемы?"
 		},
 		"landing": {
 			"intro": {
-				"title": "Mint, Burn, Claim",
-				"subtitle": "Mintr is a dApp for SNX holders to stake their SNX, mint synthetic assets (Synths), and claim rewards."
+				"title": "Выпустить, Сжечь, Получить",
+				"subtitle": "Mintr - это децентрализованное приложение для владельцев SNX с помощью которого можно участвовать в системе, выпускать синтетические активы (Синты) и получать вознаграждения."
 			},
 			"functionality": {
 				"mint": {
-					"title": "Mint Synths",
-					"description": "By staking SNX"
+					"title": "Выпустить Синты",
+					"description": "Используя SNX"
 				},
 				"burn": {
-					"title": "Burn Synths",
-					"description": "To unlock SNX"
+					"title": "Сжечь Синты",
+					"description": "Чтобы разблокировать SNX"
 				},
 				"claim": {
-					"title": "Claim rewards",
-					"description": "Including SNX staking rewards and Synth exchange rewards"
+					"title": "Получить вознаграждения",
+					"description": "Включая вознаграждение в SNX за участие в системе и комиссионные от обмена Синтов"
 				}
 			},
 			"buttons": {
-				"connect": "Connect wallet"
+				"connect": "Подключить кошелек"
 			}
 		},
 		"walletConnection": {
 			"intro": {
-				"title": "Connect wallet",
-				"subtitle": "Please connect a wallet with your SNX holdings to continue.",
-				"noMetamask": "Not installed"
+				"title": "Подключить кошелек",
+				"subtitle": "Чтобы продолжить, подключите кошелек с вашими SNX токенами.",
+				"noMetamask": "Не установлен"
 			},
 			"buttons": {
-				"connect": "Connect"
+				"connect": "Подключить"
 			}
 		},
 		"walletSelection": {
 			"success": {
-				"title": "Select Wallet",
-				"subtitle": "Please select the wallet you would like to use with Mintr"
+				"title": "Выберите Кошелек",
+				"subtitle": "Пожалуйста, выберите кошелек для взаимодействия с Mintr"
 			},
 			"loading": {
-				"connectInstructions": "Please follow the prompts on your device to unlock your wallet.",
-				"connectVia": "Connect via {{walletType}}"
+				"connectInstructions": "Пожалуйста, следуйте инструкциям на вашем устройстве, чтобы разблокировать кошелек.",
+				"connectVia": "Подключить через {{walletType}}"
 			},
 			"error": {
-				"title": "Error",
-				"subtitle": "Mintr couldn't access your wallet.",
-				"retry": "Retry"
+				"title": "Ошибка",
+				"subtitle": "Mintr не смог подключиться к вашему кошельку.",
+				"retry": "Повторить"
 			}
 		}
 	},
 	"dashboard": {
 		"header": {
-			"support": "Support",
-			"onLabel": "Dark",
-			"offLabel": "Light"
+			"support": "Поддержка",
+			"onLabel": "Темная",
+			"offLabel": "Светлая"
 		},
 		"sections": {
-			"wallet": "Your wallet details:"
+			"wallet": "Детали вашего кошелька:"
 		},
 		"rewards": {
 			"open": "left to claim rewards",
 			"blocked": "Claiming rewards is <1>blocked</1>"
 		},
 		"ratio": {
-			"current": "Current collateralization ratio",
-			"target": "Target collateralization ratio"
+			"current": "Текущий залоговый коэффициент",
+			"target": "Целевой залоговый коэффициент"
 		},
 		"holdings": {
-			"title": "Total SNX:",
-			"locked": "Locked",
-			"transferable": "Transferable",
-			"staking": "Staked",
-			"nonStaking": "Not staked",
-			"escrowed": "Escrowed",
-			"nonEscrowed": "Not escrowed"
+			"title": "Общее количество SNX:",
+			"locked": "Закрыто",
+			"transferable": "Свободно",
+			"staking": "Используется",
+			"nonStaking": "Не используется",
+			"escrowed": "Условно депонировано",
+			"nonEscrowed": "Не депонировано"
 		},
 		"table": {
-			"debt": "Debt",
-			"synths": "Synths",
-			"balance": "Balance"
+			"debt": "Долг",
+			"synths": "Синты",
+			"balance": "Баланс"
 		},
 		"buttons": {
-			"exchange": "Go to Synthetix.Exchange",
-			"synths": "View your Synths balance"
+			"exchange": "Пройти на Synthetix.Exchange",
+			"synths": "Посмотреть баланс ваших Синтов"
 		}
 	},
 	"mainNavigation": {
 		"tabs": {
-			"home": "Home",
-			"depot": "Depot",
-			"transactionsHistory": "Transactions",
-			"escrow": "Escrow"
+			"home": "Главная",
+			"depot": "Депо",
+			"transactionsHistory": "Транзакции",
+			"escrow": "Условное депонирование"
 		}
 	},
 	"home": {
 		"intro": {
-			"title": "What would you like to do?"
+			"title": "Что можно сделать?"
 		},
 		"actions": {
 			"mint": {
-				"title": "Mint",
-				"description": "Mint sUSD by staking SNX"
+				"title": "Выпустить",
+				"description": "Выпустить sUSD используя SNX"
 			},
 			"burn": {
-				"title": "Burn",
-				"description": "Burn sUSD to unlock staked SNX"
+				"title": "Сжечь",
+				"description": "Сжечь sUSD чтобы разблокировать SNX"
 			},
 			"claim": {
-				"title": "Claim",
-				"description": "Claim rewards from SNX staking and Synth exchanges"
+				"title": "Получить",
+				"description": "Получить вознаграждения от участия в системе и комиссионные с биржи"
 			},
 			"trade": {
-				"title": "Trade",
-				"description": "Trade any Synth to sUSD"
+				"title": "Торговать",
+				"description": "Торгуйте любой Синт к sUSD"
 			},
 			"transfer": {
-				"title": "Transfer",
-				"description": "Transfer SNX, Synths, or ETH"
+				"title": "Отправить",
+				"description": "Отправляйте SNX, Синты или ETH"
 			}
 		}
 	},
