@@ -127,108 +127,108 @@
 	"mintrActions": {
 		"mint": {
 			"action": {
-				"title": "Mint",
-				"subtitle": "Mint sUSD by staking your SNX. This gives you a Collateralization Ratio and a debt, allowing you to earn staking rewards.",
-				"instruction": "Confirm or enter amount to mint:",
+				"title": "Выпустить",
+				"subtitle": "Выпустите sUSD используя ваши SNX токены. У Вас появляется Залоговый Коэффициент и долг, который позволит зарабатывать вознаграждения.",
+				"instruction": "Подтвердите или введите сумму для выпуска:",
 				"buttons": {
-					"mint": "Mint now"
+					"mint": "Выпустить"
 				}
 			},
 			"confirmation": {
-				"actionDescription": "Minting",
-				"subActionDescription": "Staking"
+				"actionDescription": "Выпуск Синтов",
+				"subActionDescription": "Использование Синтов"
 			},
 			"complete": {
-				"title": "Minting in progress!"
+				"title": "Выпуск Синтов в процессе!"
 			}
 		},
 		"burn": {
 			"action": {
-				"title": "Burn",
-				"subtitle": "Burn sUSD to unlock your staked SNX. This increases your Collateralization Ratio and reduces your debt, allowing you to transfer your non-escrowed SNX.",
-				"instruction": "Confirm or enter amount to burn:",
+				"title": "Сжечь",
+				"subtitle": "Сжечь sUSD чтобы разблокировать ваши SNX. Это увеличивает ваш Залоговый Коэффициент и уменьшает ваш долг, позволяя перемещать не-депонированные SNX токены.",
+				"instruction": "Подтвердите или введите сумму для сжигания:",
 				"transferrable": {
-					"title": "Transferable SNX being unlocked:",
-					"button": "View transferable SNX"
+					"title": "Разблокированые SNX токены:",
+					"button": "Посмотреть свободные SNX"
 				},
 				"buttons": {
-					"burn": "Burn now"
+					"burn": "Сжечь"
 				}
 			},
 			"confirmation": {
-				"actionDescription": "Burning",
-				"subActionDescription": "Unlocking"
+				"actionDescription": "Сжигание Синтов",
+				"subActionDescription": "Разблокировано"
 			},
 			"complete": {
-				"title": "Burning in progress!"
+				"title": "Сжигание Синтов в процессе!"
 			}
 		},
 		"claim": {
 			"action": {
-				"title": "Claim",
-				"subtitle": "If you have staked your SNX and minted sUSD, you are eligible to collect two kinds of rewards: SNX staking rewards, and Synth exchange rewards generated on Synthetix.Exchange.",
+				"title": "Получить",
+				"subtitle": "Если вы используете SNX и выпускаете sUSD, то можете получать два типа вознаграждений: SNX вознаграждения за участие в системе, и комиссионые вознаграждения сгенерированные на Synthetix.Exchange.",
 				"table": {
-					"title": "Claimable periods:",
-					"period": "Period",
-					"status": "Claim status",
-					"open": "Open",
-					"blocked": "Blocked"
+					"title": "Периоды выплат:",
+					"period": "Период",
+					"status": "Статус выплаты",
+					"open": "Открыто",
+					"blocked": "Закрыто"
 				},
-				"tradingRewards": "Your available Synth exchange rewards:",
-				"stakingRewards": "Your available SNX staking rewards:",
+				"tradingRewards": "Доступные комиссионые вознаграждения:",
+				"stakingRewards": "Доступные вознаграждения за использование SNX:",
 				"buttons": {
-					"claim": "Claim now",
-					"history": "Claim History"
+					"claim": "Получить",
+					"history": "История Выплат"
 				},
-				"note": "Note: if not collected within two periods, your rewards will be forfeited and rolled over into the fee pool."
+				"note": "Примечание: если вознаграждения не получены в течение двух периодов, они будут утеряны и возвращены в общий пул вознаграждений."
 			},
 			"confirmation": {
-				"actionDescription": "Claiming:"
+				"actionDescription": "К получению:"
 			},
 			"complete": {
-				"title": "Claiming in progress!"
+				"title": "Выплата в процессе!"
 			}
 		},
 		"trade": {
 			"action": {
-				"title": "Trade",
-				"subtitle": "Trade your Synths for sUSD. For the full dApp, which allows you to trade between any Synths, use Synthetix.Exchange.",
+				"title": "Торговать",
+				"subtitle": "Торгуйте ваши Синты к sUSD. Используйте децентрализованное приложение Synthetix.Exchange, чтобы обменивать Синты между собой.",
 				"buttons": {
-					"trade": "Trade now",
-					"exchange": "Open Synthetix.Exchange"
+					"trade": "Торговать",
+					"exchange": "Открыть Synthetix.Exchange"
 				}
 			},
 			"confirmation": {
-				"actionDescription": "Trading:",
-				"subActionDescription": "Receiving:"
+				"actionDescription": "Обмениваем:",
+				"subActionDescription": "Получаем:"
 			},
 			"complete": {
-				"title": "Trade in progress!"
+				"title": "Обмен в процессе!"
 			}
 		},
 		"send": {
 			"action": {
-				"title": "Transfer",
-				"subtitle": "Transfer your ETH, SNX or Synths.",
-				"available": "Transferable amount:",
-				"amountInstruction": "Enter amount:",
-				"walletInstruction": "Enter destination address:",
+				"title": "Отправить",
+				"subtitle": "Отправляйте ваши ETH, SNX или Синты.",
+				"available": "Доступно к отправке:",
+				"amountInstruction": "Введите сумму:",
+				"walletInstruction": "Введите адрес получателя:",
 				"buttons": {
-					"send": "Send now"
+					"send": "Отправить"
 				}
 			},
 			"confirmation": {
-				"actionDescription": "Sending:",
-				"subActionDescription": "Destination:"
+				"actionDescription": "Отправляем:",
+				"subActionDescription": "Получатель:"
 			},
 			"complete": {
-				"title": "Sending in progress!"
+				"title": "Отправка в процессе!"
 			}
 		}
 	},
 	"depot": {
 		"intro": {
-			"title": "Depot:",
+			"title": "Депо:",
 			"subtitle": "Deposit sUSD into a queue to be sold on Synthetix.Exchange for ETH. You can withdraw your sUSD at any time while waiting. Note: minimum deposit is 50 sUSD."
 		},
 		"table": {
