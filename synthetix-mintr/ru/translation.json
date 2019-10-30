@@ -63,8 +63,8 @@
 			"wallet": "Детали вашего кошелька:"
 		},
 		"rewards": {
-			"open": "left to claim rewards",
-			"blocked": "Claiming rewards is <1>blocked</1>"
+			"open": "осталось до получения вознаграждений",
+			"blocked": "Получение вознаграждений: <1>blocked</1>"
 		},
 		"ratio": {
 			"current": "Текущий залоговый коэффициент",
