@@ -74,7 +74,7 @@
 		},
 		"buttons": {
 			"exchange": "Go to Synthetix.Exchange",
-			"synths": "View your Synths balance"
+			"synthetixDashboard": "View prices on Dashboard"
 		}
 	},
 	"mainNavigation": {
@@ -360,6 +360,8 @@
 	},
 	"button": {
 		"max": "Max",
+		"burnMax": "Burn max",
+		"fixCRatio": "Fix your Collateralization Ratio",
 		"edit": "Edit",
 		"havingTrouble": "Having trouble?",
 		"whatIsSynthetix": "What is Synthetix?",
@@ -384,7 +386,7 @@
 			"notEnoughToMint": "You cannot currently mint that much sUSD",
 			"gasEstimate": "Error while getting gas estimate",
 			"invalidAmount": "Invalid amount",
-			"notEnoughToBurn": "You cannot currently burn that much sUSD",
+			"notEnoughToBurn": "You do not have that much sUSD to burn. You can find the best rate on dex.ag to buy more.",
 			"balanceTooLow": "Your balance is too low",
 			"lowerThanMinDeposit": "Amount lower than minimum deposit"
 		}
@@ -400,6 +402,10 @@
 	"maintenance": {
 		"title": "Mintr is currently unavailable due to upgrades.",
 		"subtitle": "Sorry for the inconvenience, it will be back shortly."
+	},
+	"mobileLanding": {
+		"title": "Mintr is currently unavailable for mobile and tablet.",
+		"subtitle": "We hope to have a mobile version available in the next few months."
 	},
 	"tooltip": {
 		"claim": "To claim rewards, you must be within 10% of the Target Collateralization Ratio. If you are below this figure, you will be blocked from claiming rewards until you burn enough sUSD.",
