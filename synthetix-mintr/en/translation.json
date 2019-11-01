@@ -74,7 +74,8 @@
 		},
 		"buttons": {
 			"exchange": "Go to Synthetix.Exchange",
-			"synthetixDashboard": "View prices on Dashboard"
+			"synthetixDashboard": "View prices on Dashboard",
+			"refresh": "Refresh"
 		}
 	},
 	"mainNavigation": {
