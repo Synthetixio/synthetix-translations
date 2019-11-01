@@ -229,7 +229,7 @@
 	"depot": {
 		"intro": {
 			"title": "Депо:",
-			"subtitle": "Разместите sUSD в очередь на продажу за ETH на Synthetix.Exchange. Вы сможете забрать ваши sUSD из очереди на продажу в любой момент. Примечание: минимальный депозит - 50 sUSD."
+			"subtitle": "Разместите sUSD в очередь на продажу за ETH на Synthetix.Exchange. Вы сможете забрать ваши sUSD из очереди в любой момент. Примечание: минимальный депозит - 50 sUSD."
 		},
 		"table": {
 			"title": "Недавняя активность:",
@@ -325,72 +325,72 @@
 	},
 	"transactions": {
 		"events": {
-			"minted": "Minted",
-			"burned": "Burned",
-			"claimedFees": "Claimed Rewards",
-			"exchanged": "Bought",
-			"traded": "Traded",
-			"sent": "Sent",
-			"deposited": "Deposited",
-			"withdrawn": "Withdrawn",
-			"sold": "Sold"
+			"minted": "Выпущено",
+			"burned": "Сожжено",
+			"claimedFees": "Полученные Вознаграждения",
+			"exchanged": "Куплено",
+			"traded": "Проторговано",
+			"sent": "Отправлено",
+			"deposited": "На депозите",
+			"withdrawn": "Снято",
+			"sold": "Продано"
 		}
 	},
 	"transactionSettings": {
-		"priceIndicator": "Ethereum network fees:",
-		"title": "Set gas price",
-		"subtitle": "Adjust the gas price (GWEI) below to set the transaction speed.",
-		"minutes": "mins",
+		"priceIndicator": "Комиссионные сети Ethereum:",
+		"title": "Установите цену газа",
+		"subtitle": "Установите цену газа (GWEI), чтобы задать скорость транзакции.",
+		"minutes": "мин",
 		"button": {
-			"submit": "Submit"
+			"submit": "Подтвердить"
 		}
 	},
 	"transactionProcessing": {
 		"confirmation": {
-			"title": "Please confirm transaction",
-			"subtitle": "To continue, follow the prompts on your <1>walletType</1> Wallet.",
-			"loading": "Waiting for user response..."
+			"title": "Пожалуйста, подтвердите транзакцию",
+			"subtitle": "Чтобы продолжить, следуйте инструкциям в вашем <1>walletType</1> Кошельке.",
+			"loading": "Ожидание действий пользователя..."
 		},
 		"complete": {
-			"subtitle": "Your transaction has been broadcast to the Ethereum network. You may close this window as the transaction will complete in the background."
+			"subtitle": "Ваша транзакция отправлена в сеть Ethereum. Вы можете закрыть это окно, транзакция завершится в фоновом режиме."
 		},
 		"error": {
-			"title": "Something went wrong...",
-			"subtitle": "Code:",
+			"title": "Что-то пошло не так...",
+			"subtitle": "Код:",
 			"type": {
-				"userDenied": "User denied transaction signature",
-				"generic": "Error",
-				"gasEstimate": "Error while getting gas estimate"
+				"userDenied": "Пользователь не подписал транзакцию",
+				"generic": "Ошибка",
+				"gasEstimate": "Ошибка оценки расхода газа"
 			}
 		}
 	},
 	"notification": {
 		"status": {
-			"pending": "Transaction in progress",
-			"success": "Transaction complete!",
-			"error": "An error occurred..."
+			"pending": "Транзакция в процессе",
+			"success": "Транзакция завершена!",
+			"error": "Возникла ошибка..."
 		}
 	},
 	"button": {
-		"max": "Max",
-		"edit": "Edit",
+		"max": "Макс.",
+		"edit": "Редактировать",
 		"navigation": {
-			"cancel": "Cancel",
-			"back": "Go back",
-			"close": "Close",
-			"etherscan": "View on Etherscan",
-			"view": "View",
-			"finish": "Finish & return home",
-			"ok": "OK"
+			"cancel": "Отмена",
+			"back": "Назад",
+			"close": "Закрыть",
+			"etherscan": "Посмотреть на Etherscan",
+			"view": "Посмотреть",
+			"finish": "Завершить и вернуться на главную",
+			"ok": "ОК"
 		}
 	},
 	"input": {
 		"list": {
-			"placeholder": "Search for a synth..."
+			"placeholder": "Поиск синта..."
 		}
 	},
 	"general": {
-		"noData": "No data"
+		"noData": "Нет данных"
 	},
 	"network": {
 		"gas": "Ethereum network fees (Gas):",
