@@ -280,47 +280,47 @@
 	},
 	"escrow": {
 		"type": {
-			"staking": "Staking",
-			"token": "Token sale"
+			"staking": "Используются",
+			"token": "Первичная распродажа"
 		},
 		"buttons": {
-			"vest": "Vest now",
-			"viewTokenSale": "View token sale escrow",
-			"viewRewards": "View rewards escrow"
+			"vest": "Собрать",
+			"viewTokenSale": "Токены с первичной распродажи",
+			"viewRewards": "Депонированные вознаграждения"
 		},
 		"staking": {
-			"title": "Vest your SNX staking rewards in escrow",
-			"subtitle": "If you have staked your SNX and minted sUSD, you are eligible to receive SNX staking rewards, which you can vest here after they have been escrowed for 12 months.",
-			"total": "Total escrowed:",
+			"title": "Соберите ваши депонированные SNX вознаграждения",
+			"subtitle": "Если вы участвуете в системе используя SNX и выпуская sUSD, то можете получать SNX вознаграждения. Вы можете собрать эти токены по истечению срока условного депонирования - 12 месяцев.",
+			"total": "Всего депонировано:",
 			"table": {
-				"none": "You have no escrowed SNX",
-				"title": "Vesting schedule",
-				"date": "Vesting date",
-				"quantity": "Quantity"
+				"none": "У вас нет депонированных SNX",
+				"title": "Расписание сбора",
+				"date": "Дата сбора",
+				"quantity": "Количество"
 			}
 		},
 		"tokenSale": {
-			"title": "Vest your escrowed SNX from the token sale ",
-			"subtitle": "If your SNX is still escrowed from the token sale, you can vest it here.",
-			"total": "Total vesting:",
+			"title": "Соберите SNX токены от первичной распродажи",
+			"subtitle": "Если у вас есть токены SNX от первичной распродажи, вы можете собрать их здесь.",
+			"total": "Всего собрано:",
 			"table": {
-				"title": "Vesting schedule",
-				"period": "Vesting period",
-				"interval": "Interval",
-				"number": "No. of intervals",
-				"months": "Months",
-				"vested": "Vested",
-				"date": "Vesting date",
-				"quantity": "Quantity",
-				"none": "You have no escrowed SNX"
+				"title": "Расписание сбора",
+				"period": "Периоды сборов",
+				"interval": "Интервал",
+				"number": "Номера интервалов",
+				"months": "Месяцы",
+				"vested": "Собраны",
+				"date": "Дата сбора",
+				"quantity": "Количество",
+				"none": "У вас нет депонированных SNX"
 			}
 		},
 		"confirmation": {
-			"actionDescription": "Vesting:"
+			"actionDescription": "Сбор:"
 		},
 		"complete": {
-			"title": "Vesting in progress!",
-			"actionDescription": "Vesting:"
+			"title": "Сбор в процессе!",
+			"actionDescription": "Сбор:"
 		}
 	},
 	"transactions": {
@@ -402,8 +402,8 @@
 		"subtitle": "Приносим извинения за неудобства, скоро все наладится."
 	},
 	"tooltip": {
-		"claim": "Чтобы получать вознаграждения, вы должны удерживать Залоговый Коэффициент в диапазоне 10% от целевого значения. Если вы ниже этого значения, то получение вознаграждений будет закрыто, пока вы не сожгете нужное количество sUSD.",
-		"debtBalance": "Ваш долг равен количеству изначально выпущенных sUSD и далее будет колебаться в соответствии с прибылью или потерями других владельцев Синтов. Когда кто-то держит Синт, цена которого повышается, прибыль   Any time someone holds a Synth that appreciates in value, that gain is distributed proportionally between all the staked SNX holders’ debts. To unlock all your staked SNX, you must first pay off your debt.",
-		"synthsBalance": "Synths are the synthetic assets in the Synthetix system, including sUSD, sBTC, iBTC, and all of the other assets available at Synthetix.Exchange. This figure is the total value of all the Synths held in this wallet. If you wish to convert some Synths back into sUSD, click the TRADE button."
+		"claim": "Чтобы получать вознаграждения, вы должны удерживать Залоговый Коэффициент в диапазоне 10% от целевого значения. Если вы ниже этого значения, то получение вознаграждений будет закрыто, пока вы не сожжете нужное количество sUSD.",
+		"debtBalance": "Ваш долг равен количеству изначально выпущенных sUSD и далее будет колебаться в соответствии с прибылью или потерями других владельцев Синтов. Когда кто-то держит Синт, цена которого повышается, то прибыль пропорционально распределяется в качестве долга всех участников системы. Чтобы разблокировать используемые SNX, вы должны прежде всего выплатить ваш долг.",
+		"synthsBalance": "Синты - это синтетические активы в системе Synthetix, включая sUSD, sBTC, iBTC, и другие активы представленные на Synthetix.Exchange. Эта цифра - общая стоимость всех Синтов в этом кошельке. Если вам нужно конвертировать некоторые Синты обратно в sUSD, нажмите ТОРГОВАТЬ."
 	}
 }
