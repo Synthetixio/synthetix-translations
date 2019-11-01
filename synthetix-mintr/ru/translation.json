@@ -329,7 +329,7 @@
 			"burned": "Сожжено",
 			"claimedFees": "Полученные Вознаграждения",
 			"exchanged": "Куплено",
-			"traded": "Проторговано",
+			"traded": "Торговый оборот",
 			"sent": "Отправлено",
 			"deposited": "На депозите",
 			"withdrawn": "Снято",
@@ -340,7 +340,7 @@
 		"priceIndicator": "Комиссионные сети Ethereum:",
 		"title": "Установите цену газа",
 		"subtitle": "Установите цену газа (GWEI), чтобы задать скорость транзакции.",
-		"minutes": "мин",
+		"minutes": "мин.",
 		"button": {
 			"submit": "Подтвердить"
 		}
@@ -393,17 +393,17 @@
 		"noData": "Нет данных"
 	},
 	"network": {
-		"gas": "Ethereum network fees (Gas):",
-		"tradingFee": "Synth exchange fee:",
-		"speed": "Estimated transaction speed:"
+		"gas": "Комиссионные сети Ethereum (Gas):",
+		"tradingFee": "Комиссионные обмена Синтов:",
+		"speed": "Ориентировочная скорость транзакции:"
 	},
 	"maintenance": {
-		"title": "Mintr is currently unavailable due to upgrades.",
-		"subtitle": "Sorry for the inconvenience, it will be back shortly."
+		"title": "Mintr обновляется и недоступен в данный момент.",
+		"subtitle": "Приносим извинения за неудобства, скоро все наладится."
 	},
 	"tooltip": {
-		"claim": "To claim rewards, you must be within 10% of the Target Collateralization Ratio. If you are below this figure, you will be blocked from claiming rewards until you burn enough sUSD.",
-		"debtBalance": "Your debt begins as the amount of sUSD you initially mint, and fluctuates according to gains or losses made by other Synth holders. Any time someone holds a Synth that appreciates in value, that gain is distributed proportionally between all the staked SNX holders’ debts. To unlock all your staked SNX, you must first pay off your debt.",
+		"claim": "Чтобы получать вознаграждения, вы должны удерживать Залоговый Коэффициент в диапазоне 10% от целевого значения. Если вы ниже этого значения, то получение вознаграждений будет закрыто, пока вы не сожгете нужное количество sUSD.",
+		"debtBalance": "Ваш долг равен количеству изначально выпущенных sUSD и далее будет колебаться в соответствии с прибылью или потерями других владельцев Синтов. Когда кто-то держит Синт, цена которого повышается, прибыль   Any time someone holds a Synth that appreciates in value, that gain is distributed proportionally between all the staked SNX holders’ debts. To unlock all your staked SNX, you must first pay off your debt.",
 		"synthsBalance": "Synths are the synthetic assets in the Synthetix system, including sUSD, sBTC, iBTC, and all of the other assets available at Synthetix.Exchange. This figure is the total value of all the Synths held in this wallet. If you wish to convert some Synths back into sUSD, click the TRADE button."
 	}
 }
