@@ -1,46 +1,34 @@
 {
 	"onboarding": {
-		"header": {
-			"whatIsSynthetix": "¿Que es Synthetix?",
-			"support": "¿Teniendo problemas?"
-		},
-		"landing": {
-			"intro": {
-				"title": "Acuñar, Quemar, Reclamar",
-				"subtitle": "Mintr es una dApp para que los titulares de SNX inviertan sus SNX, acuñen activos sintéticos (Synths) y reclamen recompensas."
+		"slides": {
+			"welcome": {
+				"title": "Bienvenido a Mintr!",
+				"description": "Mintr es la dApp para los titulares de SNX. Si nunca ha usado Mintr antes, lea primero nuestra introducción rápida."
 			},
-			"functionality": {
-				"mint": {
-					"title": "Acuñar Synths",
-					"description": "Invertir SNX"
-				},
-				"burn": {
-					"title": "Quemar Synths",
-					"description": "Desbloquear SNX"
-				},
-				"claim": {
-					"title": "Reclamar Recompensas",
-					"description": "Incluyendo recompensas de inversion de SNX y recompensas del mercado de cambio Synth"
-				}
+			"whatIsSynthetix": {
+				"title": "Que es Synthetix?",
+				"description": "Synthetix es un protocolo descentralizado de emisión de activos sintéticos construido sobre Ethereum. Estos activos sintéticos (Synths) se crean al invertir el Synthetix Network Token (SNX), y estos Synths pueden intercambiarse entre sí directamente con los contratos inteligentes de Synthetix en Synthetix.Exchange."
 			},
-			"buttons": {
-				"connect": "Conectar billetera"
+			"whyStakeSnx": {
+				"title": "Por qué invertir SNX?",
+				"description": "Los inversores de SNX reciben dos tipos de recompensas. En primer lugar, reciben las recompensas de inversion de SNX, que se crean a través de la política monetaria inflacionaria. En segundo lugar, hay recompensas del mercado de intercambio de Synth, que son generadas por las operaciones de Synth en Synthetix.Exchange."
+			},
+			"howStakeSnx": {
+				"title": "¿Qué deben hacer los inversores de SNX?",
+				"description": "Todos los Synths deben estar respaldados por SNX invertidos en un indice de colateralización del 750%. Los inversores de SNX necesitan administrar su propio indice para estar por encima de esta cifra, lo cual pueden hacerlo quemando Synths para aumentar su indice o acuñando Synths para reducirla. Si hacen esto, pueden recolectar recompensas semanales."
+			},
+			"risks": {
+				"title": "¿Cuáles son los riesgos?",
+				"description": "Todos los inversores de SNX crean una "deuda" cuando invierten. Su deuda comienza como la cantidad de sUSD que acuña inicialmente, y fluctúa de acuerdo con las ganancias o pérdidas realizadas por otros titulares de Synth. Cada vez que alguien posee un Synth que aprecia su valor, esa ganancia se distribuye proporcionalmente entre todas las deudas de los titulares de SNX invertidos. Un inversor debe pagar su deuda antes de poder desbloquear sus SNX invertidos."
 			}
 		},
 		"walletConnection": {
-			"intro": {
-				"title": "Conectar billetera",
-				"subtitle": "Por favor, conecte una billetera con sus tenencias de SNX para continuar.",
-				"noMetamask": "No instalada"
-			},
-			"buttons": {
-				"connect": "Conectar"
-			}
+			"title": "Para comenzar, por favor conecte una billetera con sus tenencias de SNX:"
 		},
 		"walletSelection": {
 			"success": {
 				"title": "Seleccionar billetera",
-				"subtitle": "Seleccione la billetera que le gustaría usar con Mintr"
+				"subtitle": "Por favor seleccione la billetera que le gustaría usar con Mintr"
 			},
 			"loading": {
 				"connectInstructions": "Siga las instrucciones en su dispositivo para desbloquear su billetera.",
@@ -49,7 +37,7 @@
 			"error": {
 				"title": "Error",
 				"subtitle": "Mintr no pudo acceder a su billetera.",
-				"retry": "Procesar de nuevo"
+				"retry": "Reintentar"
 			}
 		}
 	},
@@ -63,19 +51,19 @@
 			"wallet": "Detalles de su billetera:"
 		},
 		"rewards": {
-			"open": "Queda para reclamar recompensas",
-			"blocked": "Reclamar recompensas esta <1>bloqueado</1>"
+			"open": "queda para reclamar recompensas",
+			"blocked": "Reclamar recompensas esta <1>blocked</1>"
 		},
 		"ratio": {
 			"current": "Indice actual de colateralizacion",
-			"target": "Índice de colateralización objetivo"
+			"target": "Target collateralization ratio"
 		},
 		"holdings": {
 			"title": "Total SNX:",
 			"locked": "Bloqueado",
 			"transferable": "Transferible",
 			"staking": "Invertido",
-			"nonStaking": "Not invertido",
+			"nonStaking": "No invertido",
 			"escrowed": "Custodiado",
 			"nonEscrowed": "No en custodia"
 		},
@@ -86,7 +74,8 @@
 		},
 		"buttons": {
 			"exchange": "Ir a Synthetix.Exchange",
-			"synths": "Ver su balance de Synths"
+			"synthetixDashboard": "Ver precios en el Tablero",
+			"refresh": "Actualizar"
 		}
 	},
 	"mainNavigation": {
@@ -128,7 +117,7 @@
 		"mint": {
 			"action": {
 				"title": "Acuñar",
-				"subtitle": "Acuñar sUSD invirtiendo sus SNX. Esto le proporciona un índice de colateralización y una deuda, lo que le permite obtener recompensas de inversion .",
+				"subtitle": "Acuñar sUSD invirtiendo sus SNX. Esto le proporciona un índice de colateralización y una deuda, lo que le permite obtener recompensas de inversion.",
 				"instruction": "Confirme o ingrese la cantidad a acuñar:",
 				"buttons": {
 					"mint": "Acuñar ahora"
@@ -148,7 +137,7 @@
 				"subtitle": "Quemar sUSD para desbloquear sus SNX invertidos. Esto aumenta su índice de colateralización y reduce su deuda, lo que le permite transferir sus SNX no custodiados.",
 				"instruction": "Confirme o ingrese la cantidad a quemar:",
 				"transferrable": {
-					"title": "SNX transferibles SNX siendo desbloqueados:",
+					"title": "SNX transferible siendo desbloqueado:",
 					"button": "Ver SNX transferibles"
 				},
 				"buttons": {
@@ -177,13 +166,13 @@
 				"tradingRewards": "Sus recompensas disponibles del mercado de intercambio Synth:",
 				"stakingRewards": "Sus recompensas disponibles de inversion SNX:",
 				"buttons": {
-					"claim": "Reclamar ahora",
+					"claim": ""Reclamar ahora",
 					"history": "Historial de reclamos"
 				},
-				"note": "Nota: si no se recogen dentro de los dos periodos, sus recompensas se perderan y se transferiran al fondo de tarifas."
+				"note": ""Nota: si no se recogen dentro de los dos periodos, sus recompensas se perderan y se transferiran al fondo de comisiones."
 			},
 			"confirmation": {
-				"actionDescription": Reclamando:"
+				"actionDescription": "Reclamando:"
 			},
 			"complete": {
 				"title": "Reclamado en progreso!"
@@ -229,7 +218,7 @@
 	"depot": {
 		"intro": {
 			"title": "Deposito:",
-			"subtitle": ""Deposite sUSD en la lista para venderlo en Synthetix. Intercambie por ETH. Puede retirar sus sUSD en cualquier momento mientras espera. Nota: el depósito mínimo es de 50 sUSD."
+			"subtitle": "Deposite sUSD en la lista para venderlo en Synthetix. Intercambie por ETH. Puede retirar sus sUSD en cualquier momento mientras espera. Nota: el depósito mínimo es de 50 sUSD."
 		},
 		"table": {
 			"title": "Actividad reciente:",
@@ -241,7 +230,7 @@
 			"timeDate": "Hora | Fecha",
 			"details": "Detalles",
 			"deposit": "Deposito",
-			"soldByDepot": "Vendida por depósito"
+			"soldByDepot": "Vendida por deposito"
 		},
 		"buttons": {
 			"available": "Cantidad disponible:",
@@ -301,7 +290,7 @@
 		},
 		"tokenSale": {
 			"title": "Otorgar sus SNX en custodia desde la venta de tokens ",
-			"subtitle": " "Si sus SNX todavía están en custodia desde la venta de tokens, puede otorgarlos aqui .",
+			"subtitle": "Si sus SNX todavía están en custodia desde la venta de tokens, puede otorgarlos aqui.",
 			"total": "Total otrogado:",
 			"table": {
 				"title": "Calendario de otorgamiento",
@@ -337,10 +326,10 @@
 		}
 	},
 	"transactionSettings": {
-		"priceIndicator": "Tarifas de la red Ethereum:",
+		"priceIndicator": "Comisiones de la red Ethereum:",
 		"title": "Configurar el precio del gas",
 		"subtitle": "Ajuste el precio del gas (GWEI) a continuación para establecer la velocidad de la transacción.",
-		"minutes": "min",
+		"minutes": "mins",
 		"button": {
 			"submit": "Enviar"
 		}
@@ -359,8 +348,7 @@
 			"subtitle": "Codigo:",
 			"type": {
 				"userDenied": "Firma de transacción denegada por el usuario",
-				"generic": "Error",
-				"gasEstimate": "Error al obtener la estimación de gas"
+				"generic": "Error"
 			}
 		}
 	},
@@ -373,7 +361,14 @@
 	},
 	"button": {
 		"max": "Max",
+		"burnMax": "Quemar el máximo",
+		"fixCRatio": "Corregir su índice de colateralización",
 		"edit": "Editar",
+		"havingTrouble": "¿Teniendo problemas?",
+		"whatIsSynthetix": "¿Que es Synthetix?",
+		"previous": "Anterior",
+		"next": "Siguiente",
+		"startOver": "Comenzar de nuevo",
 		"navigation": {
 			"cancel": "Cancelar",
 			"back": "Regresar",
@@ -387,23 +382,35 @@
 	"input": {
 		"list": {
 			"placeholder": "Buscar un synth..."
+		},
+		"error": {
+			"notEnoughToMint": "Actualmente no puede acuñar esa cantidad de sUSD",
+			"gasEstimate": "Error al obtener la estimación de gas",
+			"invalidAmount": "Monto invalido",
+			"notEnoughToBurn": "No tiene mucho sUSD para quemar. Puede encontrar el mejor precio en dex.ag para comprar más.",
+			"balanceTooLow": "Su saldo es demasiado bajo",
+			"lowerThanMinDeposit": "Cantidad inferior al depósito mínimo"
 		}
 	},
 	"general": {
 		"noData": "Sin datos"
 	},
 	"network": {
-		"gas": "Tarifa de la red Ethereum (Gas):",
-		"tradingFee": "Tarifa del mercado de intercambio Synth :",
+		"gas": "Comision de la red Ethereum (Gas):",
+		"tradingFee": "Comision del mercado de intercambio Synth:",
 		"speed": "Velocidad de transaccion estimada:"
 	},
 	"maintenance": {
 		"title": "Mintr no está disponible actualmente debido a actualizaciones.",
-		"subtitle": "Mintr no está disponible actualmente debido a actualizaciones."
+		"subtitle": "Disculpe las molestias, volverá en breve."
+	},
+	"mobileLanding": {
+		"title": "Mintr no está disponible actualmente para dispositivos móviles y tabletas.",
+		"subtitle": "Esperamos tener una versión móvil disponible en los próximos meses."
 	},
 	"tooltip": {
 		"claim": "Para reclamar recompensas, debe estar dentro del 10% del índice de colateralización objetivo. Si está por debajo de esta cifra, se le bloqueará el reclamo de recompensas hasta que queme suficiente sUSD.",
 		"debtBalance": "Su deuda comienza como la cantidad de sUSD que inicialmente acuña, y fluctúa de acuerdo con las ganancias o pérdidas realizadas por otros poseedores de Synth. Cada vez que alguien que posee un Synth que aprecia su valor, esa ganancia se distribuye proporcionalmente entre todas las deudas de los poseedores de los SNX invertidos. Para desbloquear todos sus SNX invertidos, primero debe pagar su deuda.",
-		"synthsBalance": "Los Synths son los activos sintéticos en el sistema Synthetix, incluidos sUSD, sBTC, iBTC y todos los demás activos disponibles en Synthetix.Exchange. Esta cifra es el valor total de todos los Synths contenidos en esta billetera. Si desea convertir algunos Synths de nuevo en sUSD, haga clic en el botón COMERCIAR ".
+		"synthsBalance": "Los Synths son los activos sintéticos en el sistema Synthetix, incluidos sUSD, sBTC, iBTC y todos los demás activos disponibles en Synthetix.Exchange. Esta cifra es el valor total de todos los Synths contenidos en esta billetera. Si desea convertir algunos Synths de nuevo en sUSD, haga clic en el botón COMERCIAR."
 	}
 }
