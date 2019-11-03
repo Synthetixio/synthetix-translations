@@ -9,10 +9,11 @@ Internationalization repository for Synthetix dApps.
 ## Translator Instructions
 
 1. Fork this repo using the fork button on the top right ^^^.
-2. Copy the `/en/translation.json` e.g. synthetix-mintr/en/translation.json
-3. Rename it into your langage folder `{APP_NAME}/{LANG-CODE}/translation.json` e.g. synthetix-mintr/es/translation.json
-4. Translate English to your language
-5. Submit PR back to this repo
+2. Create language folder using your language code https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+3. Copy the `/en/translation.json` e.g. synthetix-mintr/en/translation.json
+4. Rename it into your langage folder `{APP_NAME}/{LANG-CODE}/translation.json` e.g. synthetix-mintr/es/translation.json
+5. Translate English to your language
+6. Submit PR back to this repo
 
 Before submitting a translation, please make sure to respect the following repository architecture:
 `{APP_NAME}/{LANG-CODE}/translation.json`
