@@ -43,9 +43,7 @@
 	},
 	"dashboard": {
 		"header": {
-			"support": "Support",
-			"onLabel": "Dark",
-			"offLabel": "Light"
+			"support": "Support"
 		},
 		"sections": {
 			"wallet": "Your wallet details:"

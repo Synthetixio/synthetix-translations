@@ -43,9 +43,7 @@
 	},
 	"dashboard": {
 		"header": {
-			"support": "Soporte",
-			"onLabel": "Oscuro",
-			"offLabel": "Luminoso"
+			"support": "Soporte"
 		},
 		"sections": {
 			"wallet": "Detalles de su billetera:"

@@ -43,9 +43,7 @@
 	},
 	"dashboard": {
 		"header": {
-			"support": "Поддержка",
-			"onLabel": "Темная",
-			"offLabel": "Светлая"
+			"support": "Поддержка"
 		},
 		"sections": {
 			"wallet": "Детали вашего кошелька:"
