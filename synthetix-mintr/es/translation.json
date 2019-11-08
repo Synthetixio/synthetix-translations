@@ -53,8 +53,8 @@
 			"blocked": "Reclamar recompensas esta <1>blocked</1>"
 		},
 		"ratio": {
-			"current": "Indice actual de colateralizacion",
-			"target": "Target collateralization ratio"
+			"current": "Índice actual de colateralización",
+			"target": "Índice de colateralización objetivo"
 		},
 		"holdings": {
 			"title": "Total SNX:",
