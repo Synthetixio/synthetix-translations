@@ -56,7 +56,7 @@
 		},
 		"ratio": {
 			"current": "Indice actual de colateralizacion",
-			"target": "Target collateralization ratio"
+			"target": "Indice de colateralizacion objetivo"
 		},
 		"holdings": {
 			"title": "Total SNX:",
@@ -166,10 +166,10 @@
 				"tradingRewards": "Sus recompensas disponibles del mercado de intercambio Synth:",
 				"stakingRewards": "Sus recompensas disponibles de inversion SNX:",
 				"buttons": {
-					"claim": ""Reclamar ahora",
+					"claim": "Reclamar ahora",
 					"history": "Historial de reclamos"
 				},
-				"note": ""Nota: si no se recogen dentro de los dos periodos, sus recompensas se perderan y se transferiran al fondo de comisiones."
+				"note": "Nota: si no se recogen dentro de los dos periodos, sus recompensas se perderan y se transferiran al fondo de comisiones."
 			},
 			"confirmation": {
 				"actionDescription": "Reclamando:"
@@ -278,7 +278,7 @@
 			"viewRewards": "Ver recompensas en garantia"
 		},
 		"staking": {
-			"title": "Otorgar sus recomepnsas de SNX en garantia",
+			"title": "Otorgar sus recompensas de SNX en garantia",
 			"subtitle": "Si usted ha invertido SNX y acuño sUSD, es elegible para recibir SNX por recompensas de inversion , las cuales puede otorgar aqui despues de que ellas hayan sido custodiadas por 12 meses.",
 			"total": "Total en garantia:",
 			"table": {
