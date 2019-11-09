@@ -407,7 +407,7 @@
 		"subtitle": "Esperamos tener una versión móvil disponible en los próximos meses."
 	},
 	"tooltip": {
-		"claim": "Para reclamar recompensas, debe estar dentro del 10% del índice de colateralización objetivo. Si está por debajo de esta cifra, se le bloqueará el reclamo de recompensas hasta que queme suficiente sUSD.",
+		"claim": "Para reclamar recompensas, debe estar dentro del 1% del índice de colateralización objetivo. Si está por debajo de esta cifra, se le bloqueará el reclamo de recompensas hasta que queme suficiente sUSD.",
 		"debtBalance": "Su deuda comienza como la cantidad de sUSD que inicialmente acuña, y fluctúa de acuerdo con las ganancias o pérdidas realizadas por otros poseedores de Synth. Cada vez que alguien que posee un Synth que aprecia su valor, esa ganancia se distribuye proporcionalmente entre todas las deudas de los poseedores de los SNX invertidos. Para desbloquear todos sus SNX invertidos, primero debe pagar su deuda.",
 		"synthsBalance": "Los Synths son los activos sintéticos en el sistema Synthetix, incluidos sUSD, sBTC, iBTC y todos los demás activos disponibles en Synthetix.Exchange. Esta cifra es el valor total de todos los Synths contenidos en esta billetera. Si desea convertir algunos Synths de nuevo en sUSD, haga clic en el botón COMERCIAR."
 	}
