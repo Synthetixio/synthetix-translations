@@ -407,7 +407,7 @@
 		"subtitle": "We hope to have a mobile version available in the next few months."
 	},
 	"tooltip": {
-		"claim": "To claim rewards, you must be within 10% of the Target Collateralization Ratio. If you are below this figure, you will be blocked from claiming rewards until you burn enough sUSD.",
+		"claim": "To claim rewards, you must be within 1% of the Target Collateralization Ratio. If you are below this figure, you will be blocked from claiming rewards until you burn enough sUSD.",
 		"debtBalance": "Your debt begins as the amount of sUSD you initially mint, and fluctuates according to gains or losses made by other Synth holders. Any time someone holds a Synth that appreciates in value, that gain is distributed proportionally between all the staked SNX holders’ debts. To unlock all your staked SNX, you must first pay off your debt.",
 		"synthsBalance": "Synths are the synthetic assets in the Synthetix system, including sUSD, sBTC, iBTC, and all of the other assets available at Synthetix.Exchange. This figure is the total value of all the Synths held in this wallet. If you wish to convert some Synths back into sUSD, click the TRADE button."
 	}
