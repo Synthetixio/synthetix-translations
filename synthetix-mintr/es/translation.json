@@ -19,7 +19,7 @@
 			},
 			"risks": {
 				"title": "¿Cuáles son los riesgos?",
-				"description": "Todos los inversores de SNX crean una "deuda" cuando invierten. Su deuda comienza como la cantidad de sUSD que acuña inicialmente, y fluctúa de acuerdo con las ganancias o pérdidas realizadas por otros titulares de Synth. Cada vez que alguien posee un Synth que aprecia su valor, esa ganancia se distribuye proporcionalmente entre todas las deudas de los titulares de SNX invertidos. Un inversor debe pagar su deuda antes de poder desbloquear sus SNX invertidos."
+				"description": "Todos los inversores de SNX crean una 'deuda' cuando invierten. Su deuda comienza como la cantidad de sUSD que acuña inicialmente, y fluctúa de acuerdo con las ganancias o pérdidas realizadas por otros titulares de Synth. Cada vez que alguien posee un Synth que aprecia su valor, esa ganancia se distribuye proporcionalmente entre todas las deudas de los titulares de SNX invertidos. Un inversor debe pagar su deuda antes de poder desbloquear sus SNX invertidos."
 			}
 		},
 		"walletConnection": {
