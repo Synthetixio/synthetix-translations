@@ -313,6 +313,11 @@
     }
   },
   "transactions": {
+    "filters": {
+      "type": "Тип",
+      "date": "Дата",
+      "amount": "Сумма"
+    },
     "events": {
       "minted": "Выпущено",
       "burned": "Сожжено",
@@ -323,6 +328,13 @@
       "deposited": "Размещено на продажу",
       "withdrawn": "Снято с продажи",
       "sold": "Продано"
+    },
+    "buttons": {
+      "clearFilters": "Сбросить фильтры"
+    },
+    "inputs": {
+      "from": "от:",
+      "to": "до:"
     }
   },
   "transactionSettings": {
@@ -330,6 +342,11 @@
     "title": "Установите цену газа",
     "subtitle": "Установите цену газа (GWEI), чтобы задать скорость транзакции.",
     "minutes": "мин.",
+    "speed": {
+      "slow": "Медленно",
+      "average": "Средне",
+      "fast": "Быстро"
+    },
     "button": {
       "submit": "Подтвердить"
     }
