@@ -311,6 +311,11 @@
 		}
 	},
 	"transactions": {
+		"filters": {
+			"type": "Type",
+			"date": "Date",
+			"amount": "Amount"
+		},
 		"events": {
 			"minted": "已铸造",
 			"burned": "已销毁",
@@ -321,6 +326,13 @@
 			"deposited": "已存款",
 			"withdrawn": "已取款",
 			"sold": "已售出"
+		},
+		"buttons": {
+			"clearFilters": "Clear filters"
+		},
+		"inputs": {
+			"from": "from:",
+			"to": "to:"
 		}
 	},
 	"transactionSettings": {
@@ -328,6 +340,11 @@
 		"title": "设定 gas price",
 		"subtitle": "调整下方的 gas price (GWEI) 来设置交易速度。",
 		"minutes": "分钟",
+		"speed": {
+			"slow": "Slow",
+			"average": "Average",
+			"fast": "Fast"
+		},
 		"button": {
 			"submit": "提交"
 		}
