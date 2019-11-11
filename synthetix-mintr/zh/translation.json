@@ -72,7 +72,7 @@
 		},
 		"buttons": {
 			"exchange": "前往 Synthetix.Exchange",
-			"synthetixDashboard": "查看您的合成资产账目",
+			"synthetixDashboard": "查看 Synthetix Dashboard",
 			"refresh": "刷新"
 		}
 	},
@@ -136,7 +136,7 @@
 				"instruction": "直接确认或手动输入您要销毁的数量：",
 				"transferrable": {
 					"title": "解锁的 SNX",
-					"button": "查看可转账的 SNX"
+					"button": "查看可解锁的 SNX"
 				},
 				"buttons": {
 					"burn": "开始销毁"
@@ -375,9 +375,9 @@
 		}
 	},
 	"button": {
-		"max": "全部交易",
+		"max": "全部",
 		"burnMax": "全部销毁",
-		"fixCRatio": "调整您的抵押率",
+		"fixCRatio": "调整至目标抵押率",
 		"edit": "编辑",
 		"havingTrouble": "有问题？",
 		"whatIsSynthetix": "什么是 Synthetix?",
@@ -424,8 +424,8 @@
 		"subtitle": "我们期望在接下来几个月内上线一个移动版。"
 	},
 	"tooltip": {
-		"claim": "要申领奖励，您的抵押率不能低于目标抵押率超过 1%。如果您的抵押率不够，奖励领取将被关闭，直到您销毁足够的 sUSD。",
-		"debtBalance": "您的债务一开始与您铸造的 sUSD 相等，然后会随着其他 Synth 持有者的盈利或损失而波动。当有人持有一个升值的 Synth 时，这些收益按比例来源于所有抵押了 SNX 的持有者的债务。要解锁所有您抵押的 SNX，您需要首先还清您的债务。",
-		"synthsBalance": "Synth 在 Synthetix 的系统中的合成资产，包括 sUSD, sBTC, iBTC, 和所有其他在 Synthetix.Exchange 的合成资产。这个数字是此钱包中国呢所有合成资产的价值总和。如果您希望把它们换回 sUSD，请点击交易按钮。"
+		"claim": "要申领奖励，您的抵押率不能低于目标抵押率超过 10%。如果您的抵押率不够，奖励领取将被关闭，直到您销毁足够的 sUSD。",
+		"debtBalance": "一开始，您的债务等于初始铸造的 sUSD 数量，接下来，债务将随着其他合成资产持有人的收益和损失而波动。当有人持有的合成资产增值时，那部分收益将按比例来自于所有 SNX 持有人的债务。要解锁所有您抵押的 SNX，您需要首先还清您的债务。",
+		"synthsBalance": "Synth 是在 Synthetix 的系统中的合成资产，包括 sUSD, sBTC, iBTC, 和所有其他在 Synthetix.Exchange 的合成资产。这个数字是此钱包中所有合成资产的价值总和。如果您希望把它们换回 sUSD，请点击交易按钮。"
 	}
 }
