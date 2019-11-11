@@ -313,6 +313,11 @@
 		}
 	},
 	"transactions": {
+		"filters": {
+			"type": "Type",
+			"date": "Date",
+			"amount": "Amount"
+		},
 		"events": {
 			"minted": "Acuñados",
 			"burned": "Quemados",
@@ -323,6 +328,13 @@
 			"deposited": "Depositado",
 			"withdrawn": "Retirado",
 			"sold": "Vendido"
+		},
+		"buttons": {
+			"clearFilters": "Clear filters"
+		},
+		"inputs": {
+			"from": "from:",
+			"to": "to:"
 		}
 	},
 	"transactionSettings": {
@@ -330,6 +342,11 @@
 		"title": "Configurar el precio del gas",
 		"subtitle": "Ajuste el precio del gas (GWEI) a continuación para establecer la velocidad de la transacción.",
 		"minutes": "min",
+		"speed": {
+			"slow": "Slow",
+			"average": "Average",
+			"fast": "Fast"
+		},
 		"button": {
 			"submit": "Enviar"
 		}

@@ -287,7 +287,7 @@
 			}
 		},
 		"tokenSale": {
-			"title": "Vest your escrowed SNX from the token sale ",
+			"title": "Vest your escrowed SNX from the token sale",
 			"subtitle": "If your SNX is still escrowed from the token sale, you can vest it here.",
 			"total": "Total vesting:",
 			"table": {
@@ -311,6 +311,11 @@
 		}
 	},
 	"transactions": {
+		"filters": {
+			"type": "Type",
+			"date": "Date",
+			"amount": "Amount"
+		},
 		"events": {
 			"minted": "Minted",
 			"burned": "Burned",
@@ -321,6 +326,13 @@
 			"deposited": "Deposited",
 			"withdrawn": "Withdrawn",
 			"sold": "Sold"
+		},
+		"buttons": {
+			"clearFilters": "Clear filters"
+		},
+		"inputs": {
+			"from": "from:",
+			"to": "to:"
 		}
 	},
 	"transactionSettings": {
@@ -328,6 +340,11 @@
 		"title": "Set gas price",
 		"subtitle": "Adjust the gas price (GWEI) below to set the transaction speed.",
 		"minutes": "mins",
+		"speed": {
+			"slow": "Slow",
+			"average": "Average",
+			"fast": "Fast"
+		},
 		"button": {
 			"submit": "Submit"
 		}
