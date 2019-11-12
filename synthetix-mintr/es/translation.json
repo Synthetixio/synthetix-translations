@@ -2,16 +2,16 @@
 	"onboarding": {
 		"slides": {
 			"welcome": {
-				"title": "Bienvenido a Mintr!",
-				"description": "Mintr es la dApp para los titulares de SNX. Si nunca ha usado Mintr antes, lea primero nuestra introducción rápida."
+				"title": "¡Bienvenido a Mintr!",
+				"description": "Mintr es la dApp para los titulares de SNX. Si nunca ha usado Mintr antes, lea primero nuestra rápida introducción."
 			},
 			"whatIsSynthetix": {
-				"title": "Que es Synthetix?",
+				"title": "¿Qué es Synthetix?",
 				"description": "Synthetix es un protocolo descentralizado de emisión de activos sintéticos construido sobre Ethereum. Estos activos sintéticos (Synths) se crean al invertir el Synthetix Network Token (SNX), y estos Synths pueden intercambiarse entre sí directamente con los contratos inteligentes de Synthetix en Synthetix.Exchange."
 			},
 			"whyStakeSnx": {
-				"title": "Por qué invertir SNX?",
-				"description": "Los inversores de SNX reciben dos tipos de recompensas. En primer lugar, reciben las recompensas de inversion de SNX, que se crean a través de la política monetaria inflacionaria. En segundo lugar, hay recompensas del mercado de intercambio de Synth, que son generadas por las operaciones de Synth en Synthetix.Exchange."
+				"title": "¿Por qué invertir en SNX?",
+				"description": "Los inversores de SNX reciben dos tipos de recompensas. En primer lugar, reciben las recompensas de inversión de SNX, que se crean a través de la política monetaria inflacionaria. En segundo lugar, hay recompensas del mercado de intercambio de Synth, que son generadas por las operaciones de Synth en Synthetix.Exchange."
 			},
 			"howStakeSnx": {
 				"title": "¿Qué deben hacer los inversores de SNX?",
@@ -32,7 +32,7 @@
 			},
 			"loading": {
 				"connectInstructions": "Siga las instrucciones en su dispositivo para desbloquear su billetera.",
-				"connectVia": "Conectar via {{walletType}}"
+				"connectVia": "Conectar vía {{walletType}}"
 			},
 			"error": {
 				"title": "Error",
@@ -43,7 +43,9 @@
 	},
 	"dashboard": {
 		"header": {
-			"support": "Soporte"
+			"support": "Soporte",
+			"onLabel": "Oscuro",
+			"offLabel": "Luminoso"
 		},
 		"sections": {
 			"wallet": "Detalles de su billetera:"
@@ -53,8 +55,8 @@
 			"blocked": "Reclamar recompensas esta <1>blocked</1>"
 		},
 		"ratio": {
-			"current": "Indice actual de colateralizacion",
-			"target": "Target collateralization ratio"
+			"current": "Indice actual de colateralización",
+			"target": "Indice de colateralización objetivo"
 		},
 		"holdings": {
 			"title": "Total SNX:",
@@ -63,7 +65,7 @@
 			"staking": "Invertido",
 			"nonStaking": "No invertido",
 			"escrowed": "Custodiado",
-			"nonEscrowed": "No en custodia"
+			"nonEscrowed": "No custodiado"
 		},
 		"table": {
 			"debt": "Deuda",
@@ -86,12 +88,12 @@
 	},
 	"home": {
 		"intro": {
-			"title": "¿Que le gustaria hacer?"
+			"title": "¿Que le gustaría hacer?"
 		},
 		"actions": {
 			"mint": {
 				"title": "Acuñar",
-				"description": "Acuñar sUSD inviertiendo SNX"
+				"description": "Acuñar sUSD invirtiendo SNX"
 			},
 			"burn": {
 				"title": "Quemar",
@@ -115,7 +117,7 @@
 		"mint": {
 			"action": {
 				"title": "Acuñar",
-				"subtitle": "Acuñar sUSD invirtiendo sus SNX. Esto le proporciona un índice de colateralización y una deuda, lo que le permite obtener recompensas de inversion.",
+				"subtitle": "Acuñar sUSD invirtiendo sus SNX. Esto le proporciona un índice de colateralización y una deuda, lo que le permite obtener recompensas de inversión.",
 				"instruction": "Confirme o ingrese la cantidad a acuñar:",
 				"buttons": {
 					"mint": "Acuñar ahora"
@@ -126,7 +128,7 @@
 				"subActionDescription": "Invirtiendo"
 			},
 			"complete": {
-				"title": "Acuñado en progreso!"
+				"title": "¡Acuñado en progreso!"
 			}
 		},
 		"burn": {
@@ -147,13 +149,13 @@
 				"subActionDescription": "Desbloqueando"
 			},
 			"complete": {
-				"title": "Quemando en progreso!"
+				"title": "¡Quemando en progreso!"
 			}
 		},
 		"claim": {
 			"action": {
 				"title": "Reclamar",
-				"subtitle": "Si ha invertido sus SNX y acuñado sUSD, ud. es elegible para reunir dos tipos de recompensas: recompensas de inversion de SNX, y recompensas del mercado de intercambio Synth generadas en Synthetix.Exchange.",
+				"subtitle": "Si ha invertido sus SNX y acuñado sUSD, Ud. es elegible para reunir dos tipos de recompensas: recompensas de inversión de SNX, y recompensas del mercado de intercambio Synth generadas en Synthetix.Exchange.",
 				"table": {
 					"title": "Periodos reclamables:",
 					"period": "Periodo",
@@ -162,18 +164,18 @@
 					"blocked": "Bloqueado"
 				},
 				"tradingRewards": "Sus recompensas disponibles del mercado de intercambio Synth:",
-				"stakingRewards": "Sus recompensas disponibles de inversion SNX:",
+				"stakingRewards": "Sus recompensas disponibles de inversión SNX:",
 				"buttons": {
 					"claim": "Reclamar ahora",
 					"history": "Historial de reclamos"
 				},
-				"note": "Nota: si no se recogen dentro de los dos periodos, sus recompensas se perderan y se transferiran al fondo de comisiones."
+				"note": "Nota: si no se recogen dentro de los dos periodos, sus recompensas se perderán y se transferirán al fondo de comisiones."
 			},
 			"confirmation": {
 				"actionDescription": "Reclamando:"
 			},
 			"complete": {
-				"title": "Reclamado en progreso!"
+				"title": "¡Reclamado en progreso!"
 			}
 		},
 		"trade": {
@@ -190,7 +192,7 @@
 				"subActionDescription": "Recibiendo:"
 			},
 			"complete": {
-				"title": "Comercio en progreso!"
+				"title": "¡Comercio en progreso!"
 			}
 		},
 		"send": {
@@ -199,7 +201,7 @@
 				"subtitle": "Transferir sus ETH, SNX o Synths.",
 				"available": "Cantidad transferible:",
 				"amountInstruction": "Ingrese la cantidad:",
-				"walletInstruction": "Ingrese la direccion de destino:",
+				"walletInstruction": "Ingrese la dirección de destino:",
 				"buttons": {
 					"send": "Enviar ahora"
 				}
@@ -209,7 +211,7 @@
 				"subActionDescription": "Destino:"
 			},
 			"complete": {
-				"title": "Enviando en progreso!"
+				"title": "¡Enviando en progreso!"
 			}
 		}
 	},
@@ -247,7 +249,7 @@
 				}
 			},
 			"complete": {
-				"title": "Deposito in progreso!"
+				"title": "¡Deposito in progreso!"
 			},
 			"actionDescription": "Depositando:"
 		},
@@ -260,7 +262,7 @@
 				}
 			},
 			"complete": {
-				"title": "Retiro en progreso!"
+				"title": "¡Retiro en progreso!"
 			},
 			"actionDescription": "Retirando:"
 		}
@@ -272,15 +274,15 @@
 		},
 		"buttons": {
 			"vest": "Otorgar ahora",
-			"viewTokenSale": "Ver venta de tokens en garantia",
-			"viewRewards": "Ver recompensas en garantia"
+			"viewTokenSale": "Ver venta de tokens en garantía",
+			"viewRewards": "Ver recompensas en garantía"
 		},
 		"staking": {
-			"title": "Otorgar sus recomepnsas de SNX en garantia",
-			"subtitle": "Si usted ha invertido SNX y acuño sUSD, es elegible para recibir SNX por recompensas de inversion , las cuales puede otorgar aqui despues de que ellas hayan sido custodiadas por 12 meses.",
-			"total": "Total en garantia:",
+			"title": "Otorgar sus recompensas de SNX en garantía",
+			"subtitle": "Si usted ha invertido SNX y acuño sUSD, es elegible para recibir SNX por recompensas de inversión , las cuales puede otorgar aquí después de que ellas hayan sido custodiadas por 12 meses.",
+			"total": "Total en garantía:",
 			"table": {
-				"none": "No tiene SNX en garantia",
+				"none": "No tiene SNX en garantía",
 				"title": "Calendario de otorgamiento",
 				"date": "Fecha de otorgamiento",
 				"quantity": "Cantidad"
@@ -288,8 +290,8 @@
 		},
 		"tokenSale": {
 			"title": "Otorgar sus SNX en custodia desde la venta de tokens ",
-			"subtitle": "Si sus SNX todavía están en custodia desde la venta de tokens, puede otorgarlos aqui.",
-			"total": "Total otrogado:",
+			"subtitle": "Si sus SNX todavía están en custodia desde la venta de tokens, puede otorgarlos aquí.",
+			"total": "Total otorgado:",
 			"table": {
 				"title": "Calendario de otorgamiento",
 				"period": "Periodo de otorgamiento",
@@ -297,7 +299,7 @@
 				"number": "Nro. de intervalos",
 				"months": "Meses",
 				"vested": "Otorgado",
-				"date": "Fecha de otrogamiento",
+				"date": "Fecha de otorgamiento",
 				"quantity": "Cantidad",
 				"none": "Usted no tiene SNX custodiados"
 			}
@@ -306,11 +308,16 @@
 			"actionDescription": "Otorgando:"
 		},
 		"complete": {
-			"title": "Otorgando en progreso!",
+			"title": "¡Otorgando en progreso!",
 			"actionDescription": "Otorgando:"
 		}
 	},
 	"transactions": {
+		"filters": {
+			"type": "Tipo",
+			"date": "Fecha",
+			"amount": "Cantidad"
+		},
 		"events": {
 			"minted": "Acuñados",
 			"burned": "Quemados",
@@ -321,20 +328,32 @@
 			"deposited": "Depositado",
 			"withdrawn": "Retirado",
 			"sold": "Vendido"
+		},
+		"buttons": {
+			"clearFilters": "Limpiar filtros"
+		},
+		"inputs": {
+			"from": "desde:",
+			"to": "hasta:"
 		}
 	},
 	"transactionSettings": {
 		"priceIndicator": "Comisiones de la red Ethereum:",
 		"title": "Configurar el precio del gas",
 		"subtitle": "Ajuste el precio del gas (GWEI) a continuación para establecer la velocidad de la transacción.",
-		"minutes": "mins",
+		"minutes": "min",
+		"speed": {
+			"slow": "Lento",
+			"average": "Promedio",
+			"fast": "Rápido"
+		},
 		"button": {
 			"submit": "Enviar"
 		}
 	},
 	"transactionProcessing": {
 		"confirmation": {
-			"title": "Por favor confirme la transaccion",
+			"title": "Por favor confirme la transacción",
 			"subtitle": "Para continuar siga las indicaciones en su billetera <1>walletType</1> .",
 			"loading": "Esperando respuesta del usuario..."
 		},
@@ -343,7 +362,7 @@
 		},
 		"error": {
 			"title": "Algo salió mal...",
-			"subtitle": "Codigo:",
+			"subtitle": "Código:",
 			"type": {
 				"userDenied": "Firma de transacción denegada por el usuario",
 				"generic": "Error"
@@ -352,9 +371,9 @@
 	},
 	"notification": {
 		"status": {
-			"pending": "Transaccion en progreso",
-			"success": "Transaccion completada!",
-			"error": "Ocurrio un error..."
+			"pending": "Transacción en progreso",
+			"success": "¡Transacción completada!",
+			"error": "Ocurrió un error..."
 		}
 	},
 	"button": {
@@ -363,7 +382,7 @@
 		"fixCRatio": "Corregir su índice de colateralización",
 		"edit": "Editar",
 		"havingTrouble": "¿Teniendo problemas?",
-		"whatIsSynthetix": "¿Que es Synthetix?",
+		"whatIsSynthetix": "¿Qué es Synthetix?",
 		"previous": "Anterior",
 		"next": "Siguiente",
 		"startOver": "Comenzar de nuevo",
@@ -394,9 +413,9 @@
 		"noData": "Sin datos"
 	},
 	"network": {
-		"gas": "Comision de la red Ethereum (Gas):",
-		"tradingFee": "Comision del mercado de intercambio Synth:",
-		"speed": "Velocidad de transaccion estimada:"
+		"gas": "Comisión de la red Ethereum (Gas):",
+		"tradingFee": "Comisión del mercado de intercambio Synth:",
+		"speed": "Velocidad de transacción estimada:"
 	},
 	"maintenance": {
 		"title": "Mintr no está disponible actualmente debido a actualizaciones.",
@@ -407,7 +426,7 @@
 		"subtitle": "Esperamos tener una versión móvil disponible en los próximos meses."
 	},
 	"tooltip": {
-		"claim": "Para reclamar recompensas, debe estar dentro del 10% del índice de colateralización objetivo. Si está por debajo de esta cifra, se le bloqueará el reclamo de recompensas hasta que queme suficiente sUSD.",
+		"claim": "Para reclamar recompensas, debe estar dentro del 1% del índice de colateralización objetivo. Si está por debajo de esta cifra, se le bloqueará el reclamo de recompensas hasta que queme suficiente sUSD.",
 		"debtBalance": "Su deuda comienza como la cantidad de sUSD que inicialmente acuña, y fluctúa de acuerdo con las ganancias o pérdidas realizadas por otros poseedores de Synth. Cada vez que alguien que posee un Synth que aprecia su valor, esa ganancia se distribuye proporcionalmente entre todas las deudas de los poseedores de los SNX invertidos. Para desbloquear todos sus SNX invertidos, primero debe pagar su deuda.",
 		"synthsBalance": "Los Synths son los activos sintéticos en el sistema Synthetix, incluidos sUSD, sBTC, iBTC y todos los demás activos disponibles en Synthetix.Exchange. Esta cifra es el valor total de todos los Synths contenidos en esta billetera. Si desea convertir algunos Synths de nuevo en sUSD, haga clic en el botón COMERCIAR."
 	}
