@@ -38,6 +38,10 @@
 				"title": "Error",
 				"subtitle": "Mintr couldn't access your wallet.",
 				"retry": "Retry"
+			},
+			"addWallet":{
+				"placeholder": "Wallet address",
+				"buttonText": "Add"
 			}
 		}
 	},
