@@ -1,3 +1,7 @@
+# This repo has been deprecated.
+
+# From now, future translations will be made into the dApp repos directly. Please visit https://github.com/Synthetixio/synthetix-mintr or https://github.com/Synthetixio/synthetix-exchange.
+
 # synthetix-translations
 
 [![CircleCI](https://circleci.com/gh/Synthetixio/synthetix-translations.svg?style=svg)](https://circleci.com/gh/Synthetixio/synthetix-translations) [![npm version](https://badge.fury.io/js/synthetix-translations.svg)](https://badge.fury.io/js/synthetix-translations)
